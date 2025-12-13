@@ -16,7 +16,7 @@ export default function InputAdd({ input, inputHandel, Add }) {
             onChange={(e) => inputHandel(e.target.value)}
             onKeyDown={(e) => {
               if (e.key === "Enter") {
-                e.preventDefault()// مهم مع multiline
+                e.preventDefault(); // مهم مع multiline
                 Add();
               }
             }}
