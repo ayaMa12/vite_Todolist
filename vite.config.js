@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react()],
   // base:'./' github دا لو مش هربط بال 
   //github دا لما اربط بال 
- base: '/vite_repo/',
+ base: '/vite_repo_Todolist/',
 })
