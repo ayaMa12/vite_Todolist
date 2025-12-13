@@ -11,7 +11,7 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import TextField from "@mui/material/TextField";
 import Misstoes from "./misstoes";
-import InputAdd from "./input&add";
+import InputAdd from "./InputAdd";
 import { useData } from "./context/context";
 import Container from "@mui/material/Container";
 import { useTaskDisparch, useTaskReduser } from "../comp/contextReduse";
