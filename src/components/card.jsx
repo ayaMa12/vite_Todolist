@@ -205,7 +205,8 @@ export default function Mycard() {
         <Card>
           <Typography variant="h1" sx={{ textAlign: "center" }}>
             {" "}
-            مهامي مهامي <Divider />
+            مهامي 
+             مهامي  <Divider />
             {/* equal <hr/> */}
           </Typography>
 
