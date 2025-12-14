@@ -24,7 +24,7 @@ body {
 .container {
   color: rgb(94, 255, 0);
   max-height: 500px;
-  max-width: 650px;
+   width: 540px;
   margin: 20px auto;
   overflow: auto;
   border-radius: 5px;
@@ -33,6 +33,6 @@ body {
   position: relative;
 }
 .fixed {
-  width: 550px;
+  width: 530px;
   position: static;
 }

@@ -201,7 +201,7 @@ export default function Mycard() {
   //   }
   return (
     <>
-      <Container maxWidth="sm" className="container">
+      <div maxWidth="sm" className="container">
         <Card>
           <Typography variant="h1" sx={{ textAlign: "center" }}>
             {" "}
@@ -251,7 +251,7 @@ export default function Mycard() {
             {new_List}
           </div>
         </Card>
-      </Container>
+      </div>
       <div className="fixed">
         <InputAdd input={input} inputHandel={inputHandel} Add={Add} />
         <Button
